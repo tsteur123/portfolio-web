@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="language" content="Dutch">
+    <meta name="author" content="Thomas">
+    <meta name="description" content="portefolio thomas steur">
+    <meta name="keywords" content="thomas, steur, portefolio">
+    <meta name="copyright" content="copyright">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="styles/telefoon.css">
+    <title>portfolio Thomas Steur</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <h1>
+          Portfolio
+        </h1>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#overmij">Home</a>
+            </li>
+            <li>
+              <a href="#overmij">over mij</a>
+            </li>
+            <li>
+              <a href="#opleiding">Opleiding</a>
+            </li>
+            <li>
+              <a href="#ervaring">ervaring</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <div class="overmij" id="overmij">
+      <h1 class="overMij">Over mij</h1>
+      <img id="thomas" src="img/thomas.png" alt="Foto Thomas"/>
+      <p class="overMijText"><h3><b>Hallo, mijn naam is Thomas Steur ik ben 16 jaar oud en ik ben
+      1e jaars ict student aan het alfa college.</b></h3>
+    </div>
+
+    <div class="opleiding" id="opleiding">
+      <h1 class="overMij">Opleiding</h1>
+      <img class="alfa" src="img/alfa.png" alt="logo alfacollege">
+      <h3>Ik ben begonnen op de basischool O.B.S. DE Vlint die naam is later veranderd naar O.B.S. De Feniks.<br>
+      na mijn basisschool ben ik naar het H.N. Werkmancollege gegaan en ben ik begonnen met de HAVO.<br> daar ben ik nadat ik kon kiezen tussen blijven zitten of naar het MBO gaan
+      heb ik gekozen om naar het Alfa college te gaan<br> en daar de opleiding applicatie en mediaontwikkelaar te beginnen.</h3>
+      <img class="werkman" src="img/werkman.png" alt="logo werkmancollege">
+    </div>
+
+    <div class="ervaring" id="ervaring">
+      <h1 class="overMij">ervaring</h1>
+      <h3>Ik heb ervaring met HTML, CSS en JavaScript. Hier kun je een website bezoeken waar ik nu mee bezig ben voor school:</h3>
+      <a href="radiogaga/index.html" class="radiogaga"><h3>Radio GaGa</h3></a>
+    </div>
+
+    <div class="contact" id="contact">
+      <h1 class="overMij">Contact</h1>
+      <form name="contact" class="contactFormulier" action="mailto:t.steur@student.alfa-college.nl" method="post">
+        <fieldset>
+          <b>Voer hier je naam in:</b><br>
+          <input required type="text" id="naam" name="naam" placeholder="naam" /><br>
+          <b>voer hier je achternaam in:</b><br>
+          <input required type="text" id="achternaam" name="achternaam" placeholder="achternaam" /><br>
+          <b>voer hier je email adres in:</b><br>
+          <input required type="email" id="email" name="email" placeholder="email" /><br>
+          <b>voer hier je telefoonnummer in:</b><br>
+          <input required type="text" id="mobiel" name="mobiel" placeholder="mobiel" /><br>
+          <b>laat hier je bericht achter:</b><br>
+          <textarea required id="bericht" name="bericht" rows="3" cols="30" placeholder="typ hier je bericht"></textarea>
+        </fieldset>
+        <input type="submit" class="verzenden" name="verzenden" value="verzenden" />
+      </form>
+    </div>
+  </main>
+    <footer class="footer">
+      <h2 class="social">Mijn social media:</h2>
+      <a href="https://www.facebook.com/thomas.steur.37"><img class="facebook" src="https://goo.gl/bbPfG3" alt="facebook logo"></a>
+      <a href="https://twitter.com/SGTTB_Gekkeman"><img class="twitter" src="https://goo.gl/cbq7jP" alt="twitter logo"></a>
+      <a href="https://plus.google.com/109378621719722674286?hl=nl"><img class="google" src="https://goo.gl/Nb5BDe" alt="google plus logo"></a>
+      <p class="coppyright">Copyright &copy; 2017 <i>Ontworpen door: Thomas Steur</i>
+      Alle rechten voorbehouden.</p>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+</html>

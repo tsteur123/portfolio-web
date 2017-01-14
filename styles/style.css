@@ -1,0 +1,154 @@
+.overmij {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  border: 1px solid #4E8CAF;
+}
+.overMij{
+  margin: 0;
+  padding: 0;
+  font-family: OswaldStencil-Bold;
+  text-align: center;
+}
+.opleiding {
+  position: relative;
+  top: 51px;
+  background-color: #4E8CAF;
+  text-align: center;
+  border: 1px solid #0B5A84;
+}
+.alfa {
+  text-align: center;
+}
+.alfa:hover {
+  margin-left: 50px;
+}
+.werkman {
+  text-align: center;
+}
+.werkman:hover {
+    margin-right: 50px;
+}
+.ervaring {
+  background-color: #0C6291;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  border: 1px solid #4E8CAF;
+}
+.contact {
+  background-color: #4E8CAF;
+  position: relative;
+  top: 50px;
+  border: 1px solid #0B5A84;
+}
+/*groote logo*/
+.facebook {
+  width: 64px;
+  height: 64px;
+}
+.twitter {
+  width: 64px;
+  height: 64px;
+}
+.google {
+  width: 64px;
+  height: 64px;
+}
+/*Safari, opera */
+@-webkit-keyframes socialmedia {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+/*standard*/
+@keyframes socialmedia {
+  from {transform: rotate(0deg); }
+  to {transform: rotate(360deg); }
+}
+.facebook {
+  -webkit-animation-name: socialmedia;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  animation-name: socialmedia;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.twitter {
+  -webkit-animation-name: socialmedia;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  animation-name: socialmedia;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.google {
+  -webkit-animation-name: socialmedia;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  animation-name: socialmedia;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.contactFormulier {
+  background-color: #387EA5;
+  text-align: center;
+}
+footer {
+  background-color: #222222;
+}
+.footer {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.social {
+  color: #0C6291;
+}
+.coppyright {
+  color: #0C6291;
+}
+input[type=text] {
+  background-color: #7EABC4;
+  color: black;
+  border: 2px solid #0C6291;
+  padding: 5px 9px;
+  width: 220px;
+}
+input[type=email] {
+  background-color: #7EABC4;
+  color: black;
+  border: 2px solid #0C6291;
+  padding: 5px 9px;
+  width: 220px;
+}
+textarea {
+  background-color: #7EABC4;
+  color: black;
+  border: 2px solid #0C6291;
+  padding: 5px 9px;
+  width: 220px;
+}
+input[type=text]:focus {
+  border: 3px solid #0B5A84;
+}
+input[type=email]:focus {
+  border: 3px solid #0B5A84;
+}
+textarea:focus {
+  border: 3px solid #0B5A84;
+}
+.radiogaga {
+  color: #0C6291;
+}
+.radiogaga:hover {
+  color: red;
+}
